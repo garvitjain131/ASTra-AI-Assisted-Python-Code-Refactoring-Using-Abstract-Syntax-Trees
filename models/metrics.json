@@ -1,0 +1,183 @@
+{
+  "model": "Gradient Boosting",
+  "trained_at": "2026-10-06 15:30:46",
+  "training_rows": 3088,
+  "test_rows": 772,
+  "positive_rate": 0.855699481865285,
+  "accuracy": 0.966321243523316,
+  "precision": 0.96759941089838,
+  "recall": 0.9939485627836612,
+  "f1": 0.9805970149253731,
+  "comparison": [
+    {
+      "model": "Random Forest",
+      "cv_f1_mean": 0.9763142725397881,
+      "cv_f1_std": 0.0022122716466095736
+    },
+    {
+      "model": "Gradient Boosting",
+      "cv_f1_mean": 0.9777781165258025,
+      "cv_f1_std": 0.002718046799420413
+    },
+    {
+      "model": "Logistic Regression",
+      "cv_f1_mean": 0.963293097615875,
+      "cv_f1_std": 0.005284673067335065
+    }
+  ],
+  "feature_importance": [
+    {
+      "feature": "max_line_len_after",
+      "importance": 0.5881061688515098
+    },
+    {
+      "feature": "risk",
+      "importance": 0.09108130590403685
+    },
+    {
+      "feature": "replacement_len",
+      "importance": 0.07012011985501913
+    },
+    {
+      "feature": "rule=R08",
+      "importance": 0.053416204826564916
+    },
+    {
+      "feature": "rule=R11",
+      "importance": 0.03996952441276885
+    },
+    {
+      "feature": "nodes_before",
+      "importance": 0.03563370006504134
+    },
+    {
+      "feature": "expr_depth_after",
+      "importance": 0.02905400149743429
+    },
+    {
+      "feature": "name_len",
+      "importance": 0.018989989904820176
+    },
+    {
+      "feature": "bool_ops_after",
+      "importance": 0.013023465971180506
+    },
+    {
+      "feature": "calls_in_region",
+      "importance": 0.012677091990837714
+    },
+    {
+      "feature": "rule=R02",
+      "importance": 0.01158839221283804
+    },
+    {
+      "feature": "block_depth",
+      "importance": 0.008712433235622537
+    },
+    {
+      "feature": "comp_generators",
+      "importance": 0.006803212111891652
+    },
+    {
+      "feature": "lines_before",
+      "importance": 0.005751476267124253
+    },
+    {
+      "feature": "node_reduction",
+      "importance": 0.0044408137857943585
+    },
+    {
+      "feature": "nodes_after",
+      "importance": 0.004077646153584717
+    },
+    {
+      "feature": "line_reduction",
+      "importance": 0.0032523848077292243
+    },
+    {
+      "feature": "lines_after",
+      "importance": 0.000814580174994531
+    },
+    {
+      "feature": "rule=R20",
+      "importance": 0.0006288346499409092
+    },
+    {
+      "feature": "rule=R10",
+      "importance": 0.0006156414198328339
+    },
+    {
+      "feature": "rule=R01",
+      "importance": 0.00033442601938668006
+    },
+    {
+      "feature": "rule=R09",
+      "importance": 0.00031834022016889935
+    },
+    {
+      "feature": "rule=R04",
+      "importance": 0.00026342179048013866
+    },
+    {
+      "feature": "comp_has_if",
+      "importance": 0.00016989356484165357
+    },
+    {
+      "feature": "rule=R05",
+      "importance": 6.960459648940799e-05
+    },
+    {
+      "feature": "rule=R15",
+      "importance": 5.94273372722454e-05
+    },
+    {
+      "feature": "rule=R03",
+      "importance": 2.7898372794293603e-05
+    },
+    {
+      "feature": "rule=R06",
+      "importance": 0.0
+    },
+    {
+      "feature": "rule=R07",
+      "importance": 0.0
+    },
+    {
+      "feature": "rule=R12",
+      "importance": 0.0
+    },
+    {
+      "feature": "rule=R13",
+      "importance": 0.0
+    },
+    {
+      "feature": "rule=R14",
+      "importance": 0.0
+    },
+    {
+      "feature": "rule=R16",
+      "importance": 0.0
+    },
+    {
+      "feature": "rule=R17",
+      "importance": 0.0
+    },
+    {
+      "feature": "rule=R18",
+      "importance": 0.0
+    },
+    {
+      "feature": "rule=R19",
+      "importance": 0.0
+    },
+    {
+      "feature": "loop_depth",
+      "importance": 0.0
+    },
+    {
+      "feature": "in_function",
+      "importance": 0.0
+    }
+  ],
+  "train_seconds": 5.56
+}
